@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .login-container {
+        background-color: #fff;
+        border-radius: 8px;
+
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+      }
+
+      .login-container img {
+        max-width: 100%;
+        height: auto;
+      }
+      .contenedor {
+        padding: 20px;
+      }
+      .login-container h2 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .login-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .login-form button {
+        background-color: #5a50f9;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 600px) {
+        .login-container {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <img src="logo.png" alt="Logo" style="width: 250px; margin-top: 20px" />
+      <div style="padding-left: 50px; padding-right: 50px">
+        <h3>Para continuar, Iniciá sesión en Personal Pay</h3>
+      </div>
+      <form class="login-form">
+        <div class="contenedor">
+          <input type="text" placeholder="Correo electrónico" required />
+          <input type="password" placeholder="Contraseña del correo" required />
+          <button type="submit">Iniciar sesión</button>
+        
+        </div>
+        
+      </form>
+      <div style="background: #3e00e7;margin-top: 20px; border-radius: 0 0 10px 10px;">
+        <img src="footer.jpg" alt="" style="width: 250px" />
+      </div>
+    </div>
+  </body>
+</html>
